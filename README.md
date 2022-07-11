@@ -4,11 +4,10 @@ Threads practice for advanced programming class (TC2025)
 
 |Programa|Tiempo en segundos|
 |--------|------------------|
-|suma    |7                 |
-|suma2   |2                 |
-|suma3   |1                 |
-|suma4   |1                 |
+|suma    |7.27              |
+|suma2   |6.85              |
+|suma3   |6.15              |
+|suma4   |5.76              |
 
+![image](https://user-images.githubusercontent.com/37568592/178361060-893ceb32-80c4-47ec-95f8-39dac1952c6c.png)
 
-
-![image](https://user-images.githubusercontent.com/37568592/178184981-e011ff51-c133-4239-a8ee-824d4665ee90.png)
