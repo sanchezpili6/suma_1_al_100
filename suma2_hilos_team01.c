@@ -54,7 +54,6 @@ int main(){
     exit(EXIT_FAILURE);
   }
   
-  time_t begin = time(NULL);
   printf("Running two threads\n");
   sem_post(&bin_one);
   sem_post(&bin_two);
@@ -63,9 +62,7 @@ int main(){
     // printf("Calculating...\n");
   }
 
-  time_t end = time(NULL);
   printf("El resultado es: %.0Lf\n",acum);
-  printf("Tiempo de ejecución: %.0ld segundos\n",end-begin);
 
   //Esperar a que los hilos se unan
   res = pthread_join(a_thread, &thread_result);
